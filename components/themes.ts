@@ -7,4 +7,5 @@ export const themes = StyleSheet.create({
     tertiaryColor: { backgroundColor: "#FFB443" },
     danger: { backgroundColor: "#FF5E5E" },
     misc: { backgroundColor: "#39DBFF" },
+    fontFace: { fontFamily: "Bebas Neue" },
 });

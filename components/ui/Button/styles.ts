@@ -7,7 +7,13 @@ export const styles = StyleSheet.create({
         alignItems: "center",
         justifyContent: "center",
         padding: 16,
-        boxShadow: "4px 4px 0px 0px rgba(0, 0, 0, 0.25)",
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 4,
+            height: 4,
+        },
+        shadowOpacity: 1,
+        shadowRadius: 0,
     },
 
     primary: {
